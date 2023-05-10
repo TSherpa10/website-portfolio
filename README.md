@@ -10,5 +10,17 @@ This repository includes my resume, my accolades, and my experiences all in one 
 
 ### April 21st: Created quokka-talent and set up React.js application.
 
+### May 8th: Finished 100vh first component of landing page.
+
 ### By May: Create Landing Page, all quokka-themed, and have two separate buttons for my resume (one for viewing as an overlay, another as a downloadable option).
 
+## Instructions on how to clone:
+
+Clone by SSH or HTTPS. After, use the following commands:
+
+```
+npm install
+npm start
+```
+
+Link to website will be made available soon.

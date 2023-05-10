@@ -1,19 +1,25 @@
 import "./Landing.css";
 import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
-import React from "react";
+import React, {useRef} from "react";
 import Typewriter from "typewriter-effect";
 
 function Landing() {
+
+  const block2Ref = useRef()
+
   function btnLogicOne() {
     console.log("loading pop-up screen of resume...");
-  }
+  };
   function btnLogicTwo() {
     window.location.href = 'https://github.com/TSherpa10';
     console.log("navigating to github profile...");
-  }
+  };
   function btnLogicThree() {
     window.location.href = 'https://www.linkedin.com/in/tsherpa10/';
     console.log("navigating to linkedin profile...");
+  };
+  function btnLogicFour() {
+    block2Ref.current.scrollIntoView({ behavior: 'smooth'})
   };
   return (
     <>
@@ -36,15 +42,26 @@ function Landing() {
               Linkedin
             </button>
           </div>
-            <h1 className="main-projects">projects</h1>
-            <ArrowDownwardIcon
-              className="arrowLogo"
-              sx={{
-                fontSize: 120,
-              }}
-            />
+          <h1 className="main-projects">projects</h1>
+          <div className="projectsBtnDiv" onClick={btnLogicFour}>
+            <button id="projects-btn">
+              <ArrowDownwardIcon
+                className="arrowLogo"
+                sx={{
+                  fontSize: 120,
+                }}
+              />
+            </button>
+          </div>
         </article>
-        <article className="main-block-2"></article>
+        <article className="main-block-2" ref={block2Ref}>
+          <hr className="dotted-line"/>
+          <button id="btn2-1">FUTURE PROJECT</button>
+          <button id="btn2-2">NERF-or-Nothing</button>
+          <button id="btn2-3">Classtime!</button>
+          <button id="btn2-4">UChat</button>
+          <button id="btn2-5">Preplify</button>
+        </article>
       </div>
     </>
   );
