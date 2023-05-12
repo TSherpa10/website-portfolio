@@ -12,6 +12,8 @@ This repository includes my resume, my accolades, and my experiences all in one 
 
 ### May 8th: Finished 100vh first component of landing page.
 
+### May 11th: Finished 100vh second component of landing page.
+
 ### By May: Create Landing Page, all quokka-themed, and have two separate buttons for my resume (one for viewing as an overlay, another as a downloadable option).
 
 ## Instructions on how to clone:
