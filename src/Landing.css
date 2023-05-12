@@ -227,7 +227,7 @@ body {
 /* Main-block-3 shenanigans */
 
 .main-block-3 {
-    min-height: 150vh;
+    min-height: 180vh;
     display: flex;
     font-family: 'Inter', bold;
     flex-flow: column nowrap;
@@ -236,12 +236,12 @@ body {
 
 }
 
-.resume-about, .resume-edu, .resume-exp {
+.resume-about, .resume-edu, .resume-exp, .resume-skill {
     margin-top: 5vh;
     width: 90%;
     min-height: 15vh;
     background-color: white;
-    padding: 0 10px 0 10px;
+    padding: 0 10px 5px 10px;
     border-radius: 18px;
 }
 
@@ -255,7 +255,12 @@ body {
     min-height: 30vh;
 }
 
-.resume-title-about, .resume-title-edu, .resume-title-exp {
+.resume-skill {
+    margin-top: 3vh;
+    min-height: 20vh;
+}
+
+.resume-title-about, .resume-title-edu, .resume-title-exp, .resume-title-skill{
     font-size: 1.3rem;
     font-weight: bold;
     text-align: center;
@@ -288,4 +293,47 @@ body {
 .resume-desc-honors-edu {
     font-weight: 600;
     display: block;
+}
+
+.resume-subhead-skill {
+    font-size: 1.00rem;
+    display: inline;
+}
+
+.resume-desc-skill {
+    display: inline;
+    font-size: 0.9rem;
+    padding-left: 10px;
+}
+
+.PhoneIcon, .EmailIcon, .contact-desc {
+    display: inline;
+}
+
+.contact {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contact-title {
+    margin-top: 8vh;
+    font-size: 1.3rem;
+}
+
+.contact-subhead {
+    flex-grow: 1;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.contact-desc1, .contact-desc2 {
+    margin-left: 1vw;
+    font-size: 0.95rem;
+}
+
+.iconDiv {
+    display: inline;
+    margin-top: 100px;
 }
