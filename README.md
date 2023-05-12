@@ -14,7 +14,9 @@ This repository includes my resume, my accolades, and my experiences all in one 
 
 ### May 11th: Finished 100vh second component of landing page.
 
-### By May: Create Landing Page, all quokka-themed, and have two separate buttons for my resume (one for viewing as an overlay, another as a downloadable option).
+### May 12th: Finished 180vh third component of landing page.
+
+### TODO: Override wheel Java event listener functionality to scroll to block\#Ref object.
 
 ## Instructions on how to clone:
 
