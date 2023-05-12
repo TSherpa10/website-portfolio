@@ -15,14 +15,14 @@ body {
     font-family: 'Inter', bold;
 }
 
-.Typewriter {
+.main-title {
     font-weight: bold;
     font-size: 2.5rem;
     padding: 0 0 200px 0;
     position: absolute;
 }
 
-.main-text {
+.Typewriter, .main-text {
     position: relative;
     margin-bottom: 120px;
     font-size: 0.9rem;
@@ -108,12 +108,12 @@ body {
     border: none;
     border-radius: 50%;
     background-color: #C1D0B5;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 #projects-btn:hover {
     transform: scale(1.1) translateY(0.5rem);
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .projectsBtnDiv {
@@ -216,12 +216,12 @@ body {
     border: none;
     border-radius: 50%;
     background-color: #C1D0B5;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 #resume-btn:hover {
     transform: scale(1.1) translateY(0.5rem);
-    transition: 1s;
+    transition: 0.5s;
 }
 
 /* Main-block-3 shenanigans */

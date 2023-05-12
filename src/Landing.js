@@ -28,16 +28,47 @@ function Landing() {
   function btnLogicFive() {
     block3Ref.current.scrollIntoView({ behavior: "smooth" });
   }
+
+  function btnProject1() {}
+  function btnProject2() {
+    window.location.href = "https://github.com/NeRF-or-Nothing";
+  }
+  function btnProject3() {
+    window.location.href = "https://github.com/ctplatform/classtime-web";
+  }
+  function btnProject4() {
+    window.location.href = "https://github.com/TSherpa10/UChat";
+  }
+  function btnProject5() {
+    window.location.href = "https://github.com/jchen2003/Preplify3.0";
+  }
   return (
     <>
       <div className="main">
         <article className="main-block-1" ref={block1Ref}>
+          <h1 className="main-title">TASHI SHERPA</h1>
           <Typewriter
+            options={{
+              deleteSpeed: 50,
+              delay: 80,
+              loop: true,
+            }}
             onInit={(typewriter) => {
-              typewriter.typeString("TASHI SHERPA").start();
+              typewriter
+                .pauseFor(2000)
+                .typeString("my portfolio.")
+                .start()
+                .pauseFor(3000)
+                .deleteChars(11)
+                .typeString(" website.")
+                .pauseFor(3000)
+                .deleteChars(9)
+                .typeString(" creative page.")
+                .pauseFor(3000)
+                .deleteChars(15)
+                .start();
             }}
           />
-          <p className="main-text">my portfolio.</p>
           <div className="main-buttons">
             <button id="btn-1" onClick={btnLogicOne}>
               Resume
@@ -63,11 +94,19 @@ function Landing() {
         </article>
         <article className="main-block-2" ref={block2Ref}>
           <hr className="dotted-line" />
-          <button id="btn2-1">FUTURE PROJECT</button>
-          <button id="btn2-2">NERF-or-Nothing</button>
-          <button id="btn2-3">Classtime!</button>
-          <button id="btn2-4">UChat</button>
-          <button id="btn2-5">Preplify</button>
+          <button id="btn2-1">Coming Soon?!?</button>
+          <button id="btn2-2" onClick={btnProject2}>
+            NERF-or-Nothing
+          </button>
+          <button id="btn2-3" onClick={btnProject3}>
+            Classtime!
+          </button>
+          <button id="btn2-4" onClick={btnProject4}>
+            UChat
+          </button>
+          <button id="btn2-5" onClick={btnProject5}>
+            Preplify
+          </button>
           <h1 className="main-resume">resume</h1>
           <div className="resumeBtnDiv" onClick={btnLogicFive}>
             <button id="resume-btn">
@@ -160,7 +199,7 @@ function Landing() {
               scikit-learn, NumPy, pandas, matplotlib
             </p>
           </div>
-          <h3 className="contact-title">Contact</h3>
+          <h3 className="contact-title">Contact Info</h3>
           <div className="contact">
             <section className="contact-subhead">
               <div className="iconDiv">
