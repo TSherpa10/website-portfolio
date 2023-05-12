@@ -1,0 +1,61 @@
+THIS IS THE DISABLE NORMAL SCROLLING + SCROLL VIA USEREF COMPONENTS CODE.
+
+  //handleWheel, override javascript onwheel behavior (note, for each ref, do style={{overflow: "scroll"}})
+  // useEffect(() => {
+  //   const handleScroll = (event) => {
+  //     const currentScrollPos = window.pageYOffset;
+  //     const block1Pos = block1Ref.current.offsetTop;
+  //     const block2Pos = block2Ref.current.offsetTop;
+  //     const block3Pos = block3Ref.current.offsetTop;
+  //     const block4Pos = block4Ref.current.offsetTop;
+
+  //     const isScrollingOnBlock1 =
+  //       currentScrollPos >= block1Pos && currentScrollPos < block2Pos;
+  //     const isScrollingOnBlock2 =
+  //       currentScrollPos >= block2Pos && currentScrollPos < block3Pos;
+  //     const isScrollingOnBlock3 =
+  //       currentScrollPos >= block3Pos && currentScrollPos < block4Pos;
+  //     const isScrollingOnBlock4 =
+  //       currentScrollPos >= block4Pos && currentScrollPos < block1Pos;
+
+  //     if (isScrollingOnBlock1 || isScrollingOnBlock2 || isScrollingOnBlock3 || isScrollingOnBlock4) {
+  //       event.stopPropagation(); // Stop the event from bubbling to the parent container
+
+  //       if (event.deltaY > 0) {
+  //         // Scrolling down
+  //         if (isScrollingOnBlock1) {
+  //           block2Ref.current.scrollIntoView({ behavior: "smooth" });
+  //         } else if (isScrollingOnBlock2) {
+  //           block3Ref.current.scrollIntoView({ behavior: "smooth" });
+  //         }
+  //         else if (isScrollingOnBlock3 && currentScrollPos + window.innerHeight >= document.documentElement.scrollHeight) {
+  //           block4Ref.current.scrollIntoView({behavior: "smooth"});
+  //         }
+  //       } else {
+  //         // Scrolling up
+  //         if (isScrollingOnBlock3) {
+  //           block3Ref.current.scrollIntoView({behavior: "smooth"});
+  //         }
+  //         else if (isScrollingOnBlock2) {
+  //           block2Ref.current.scrollIntoView({ behavior: "smooth" });
+  //         } else if (isScrollingOnBlock1) {
+  //           block1Ref.current.scrollIntoView({ behavior: "smooth" });
+  //         }
+  //       }
+  //     }
+  //   };
+
+  //   const handleWheel = (event) => {
+  //     event.preventDefault(); // Prevent default scroll behavior
+
+  //     handleScroll(event);
+  //   };
+
+  //   window.addEventListener("wheel", handleWheel, { passive: false });
+
+  //   return () => {
+  //     window.removeEventListener("wheel", handleWheel);
+  //   };
+  // }, []);
+
+IF YOU WANT TO USE THIS, PLACE THE UNCOMMENTED VERSION IN Landing.js AT LINE 15 and uncomment all styles={{overflow: "scroll"}}

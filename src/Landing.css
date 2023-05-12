@@ -127,8 +127,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /*background-image: linear-gradient(180deg, #C1D0B5 0%, white 80%, #ffeeee 100%);*/
-    /*background-image: linear-gradient(180deg, #C1D0B5 0%, #91ad81 100%);*/
 }
 
 .dotted-line {

@@ -14,7 +14,7 @@
 
 ### May 12th: Finished 180vh third component of landing page.
 
-### TODO: Override wheel Java event listener functionality to scroll to block\#Ref object.
+### TODO: Override wheel Javascript event listener functionality to scroll to block\#Ref object.
 
 ## Instructions on how to clone:
 

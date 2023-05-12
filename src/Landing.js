@@ -2,14 +2,18 @@ import "./Landing.css";
 import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 import PhoneIcon from "@mui/icons-material/Phone";
 import EmailIcon from "@mui/icons-material/Email";
-import React, { useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Typewriter from "typewriter-effect";
 
 function Landing() {
-  const block1Ref = useRef();
-  const block2Ref = useRef();
-  const block3Ref = useRef();
 
+  const block1Ref = useRef(null);
+  const block2Ref = useRef(null);
+  const block3Ref = useRef(null);
+  const block4Ref = useRef(null);
+  //archive.txt insert here
+
+  //Block1 + Arrow Button Logic
   function btnLogicOne() {
     console.log("loading pop-up screen of resume...");
     block3Ref.current.scrollIntoView({ behavior: "smooth" });
@@ -28,7 +32,7 @@ function Landing() {
   function btnLogicFive() {
     block3Ref.current.scrollIntoView({ behavior: "smooth" });
   }
-
+  //Project Button Logic
   function btnProject1() {}
   function btnProject2() {
     window.location.href = "https://github.com/NeRF-or-Nothing";
@@ -45,7 +49,12 @@ function Landing() {
   return (
     <>
       <div className="main">
-        <article className="main-block-1" ref={block1Ref}>
+
+        <article
+          className="main-block-1"
+          ref={block1Ref}
+          //style={{ overflowY: "scroll" }}
+        >
           <h1 className="main-title">TASHI SHERPA</h1>
           <Typewriter
             options={{
@@ -60,9 +69,9 @@ function Landing() {
                 .start()
                 .pauseFor(3000)
                 .deleteChars(11)
-                .typeString(" website.")
+                .typeString(" personal website.")
                 .pauseFor(3000)
-                .deleteChars(9)
+                .deleteChars(18)
                 .typeString(" creative page.")
                 .pauseFor(3000)
                 .deleteChars(15)
@@ -92,7 +101,12 @@ function Landing() {
             </button>
           </div>
         </article>
-        <article className="main-block-2" ref={block2Ref}>
+
+        <article
+          className="main-block-2"
+          ref={block2Ref}
+          //style={{ overflowY: "scroll" }}
+        >
           <hr className="dotted-line" />
           <button id="btn2-1">Coming Soon?!?</button>
           <button id="btn2-2" onClick={btnProject2}>
@@ -119,7 +133,12 @@ function Landing() {
             </button>
           </div>
         </article>
-        <article className="main-block-3" ref={block3Ref}>
+
+        <article
+          className="main-block-3"
+          ref={block3Ref}
+          //style={{ overflowY: "scroll" }}
+        >
           <div className="resume-about">
             <h1 className="resume-title-about">About</h1>
             <p className="resume-desc-about">
@@ -176,7 +195,11 @@ function Landing() {
               analyze the data using various types of models and strategies.
             </p>
           </div>
-          <div className="resume-skill">
+          <div 
+          className="resume-skill" 
+          ref={block4Ref}
+          //style={{overflowY: "scroll"}}
+          >
             <h1 className="resume-title-skill">Skills</h1>
             <h2 className="resume-subhead-skill">Languages:</h2>
             <p className="resume-desc-skill">
@@ -216,6 +239,7 @@ function Landing() {
             </section>
           </div>
         </article>
+        
       </div>
     </>
   );
