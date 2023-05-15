@@ -27,4 +27,6 @@ npm install
 npm start
 ```
 
+Now hosted on Github Pages.
+
 ### TODO: Create quick video showcase.
