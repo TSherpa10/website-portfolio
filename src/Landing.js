@@ -6,7 +6,6 @@ import React, { useState, useEffect, useRef } from "react";
 import Typewriter from "typewriter-effect";
 
 function Landing() {
-
   const block1Ref = useRef(null);
   const block2Ref = useRef(null);
   const block3Ref = useRef(null);
@@ -49,7 +48,6 @@ function Landing() {
   return (
     <>
       <div className="main">
-
         <article
           className="main-block-1"
           ref={block1Ref}
@@ -181,7 +179,8 @@ function Landing() {
               2023)
             </h2>
             <p className="resume-desc1-exp">
-              I am an incoming intern for the summer 2023 term!
+              Frontend Storytelling Team - working with React.js, Jira, GraphQL,
+              CSS, etc.
             </p>
             <h2 className="resume-subhead2-exp">
               Machine Learning Research Assistant @ Rensselaer Polytechnic
@@ -195,10 +194,10 @@ function Landing() {
               analyze the data using various types of models and strategies.
             </p>
           </div>
-          <div 
-          className="resume-skill" 
-          ref={block4Ref}
-          //style={{overflowY: "scroll"}}
+          <div
+            className="resume-skill"
+            ref={block4Ref}
+            //style={{overflowY: "scroll"}}
           >
             <h1 className="resume-title-skill">Skills</h1>
             <h2 className="resume-subhead-skill">Languages:</h2>
@@ -214,7 +213,7 @@ function Landing() {
             <br />
             <h2 className="resume-subhead-skill">Developer Tools:</h2>
             <p className="resume-desc-skill">
-              Git, Github, Netlify, Figma, Docker, MacOS, Linux, VSCode, Eclipse
+              Git, Github, Netlify, Figma, MacOS, Linux, VSCode, Eclipse
             </p>
             <br />
             <h2 className="resume-subhead-skill">Libraries:</h2>
@@ -233,13 +232,14 @@ function Landing() {
             <br />
             <section className="contact-subhead">
               <div className="iconDiv">
-                <EmailIcon sx={{ fontSize: 40 }} className="icon-email" />
+                <a id="email-btn" href="mailto: tashisherpa455@gmail.com">
+                  <EmailIcon sx={{ fontSize: 40 }} className="icon-email" />
+                </a>
               </div>
               <h3 className="contact-desc2">tashisherpa455@gmail.com</h3>
             </section>
           </div>
         </article>
-        
       </div>
     </>
   );

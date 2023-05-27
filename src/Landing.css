@@ -225,7 +225,6 @@ body {
 /* Main-block-3 shenanigans */
 
 .main-block-3 {
-    min-height: 180vh;
     display: flex;
     font-family: 'Inter', bold;
     flex-flow: column nowrap;
@@ -308,6 +307,10 @@ body {
     display: inline;
 }
 
+.icon-email {
+    color: black;
+}
+
 .contact {
     width: 90%;
     display: flex;
@@ -322,7 +325,7 @@ body {
 
 .contact-subhead {
     flex-grow: 1;
-    margin-top: 30px;
+    margin: 10px 0 30px 0;
     text-align: center;
 }
 
@@ -334,4 +337,14 @@ body {
 .iconDiv {
     display: inline;
     margin-top: 100px;
+}
+
+#email-btn {
+    border: none;
+    background-color: #C1D0B5;
+    transition: 0.5s;
+}
+
+#email-btn:hover {
+    opacity: 0.6;
 }
