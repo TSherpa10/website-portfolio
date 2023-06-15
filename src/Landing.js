@@ -213,7 +213,7 @@ function Landing() {
             <br />
             <h2 className="resume-subhead-skill">Developer Tools:</h2>
             <p className="resume-desc-skill">
-              Git, Github, Netlify, Figma, MacOS, Linux, VSCode, Eclipse
+              Git, Github, Netlify, Figma, Jira, MacOS, Linux, VSCode, Eclipse
             </p>
             <br />
             <h2 className="resume-subhead-skill">Libraries:</h2>
