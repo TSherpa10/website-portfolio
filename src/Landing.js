@@ -146,22 +146,28 @@ function Landing() {
               programming, and machine learning. He is a team player who has
               contributed and led multiple projects, a problem-solving
               enthusiast who loves algorithms and discrete math, and a student
-              who loves to explore new technologies, such as mobile app
-              development and cloud computing. He is looking for a software
-              related internship for the Summer 2024 term.
+              who loves to explore new technologies, such as mobile development
+              and 3d computing. He is looking for a software related internship
+              for the Summer 2024 term.
             </p>
           </div>
           <div className="resume-edu">
             <h1 className="resume-title-edu">Education</h1>
             <h2 className="resume-subhead1-edu">
-              Rensselaer Polytechnic Institute (Aug. 2021 - Dec. 2024)
+              Rensselaer Polytechnic Institute (Aug. 2021 - May 2025)
             </h2>
             <p className="resume-desc-edu">
               <em className="resume-desc-honors-edu">
-                3.96 / 4.00 GPA, Deans' Honor List all semesters, Society of
-                Asian Scientists and Engineers (SASE) member
+                3.96 / 4.00 GPA, Dean's List all semesters, 2023 ICPC NE
+                Regionals
               </em>
-              <strong className="resume-desc-course-edu">Coursework:</strong>{" "}
+              <strong className="resume-desc-course-edu">Affiliations:</strong>
+              Rensselaer Center for Open Source (RCOS), Society of Asian
+              Scientists and Engineers (SASE), Upsilon Pi Epsilon (UPE)
+              <br />
+              <strong className="resume-desc-course-edu">
+                Coursework:
+              </strong>{" "}
               Algorithms (Spring 2023), Principles of Software (Spring 2023),
               Linear Algebra (Spring 2023), Computer Architecture (Fall 2022),
               Discrete Math (Fall 2022), Multivariable Calculus (Fall 2022),
@@ -179,8 +185,12 @@ function Landing() {
               2023)
             </h2>
             <p className="resume-desc1-exp">
-              Frontend Storytelling Team - working with React.js, Jira, GraphQL,
-              CSS, etc.
+              I am working on the Storytelling - Live team as a fullstack
+              engineer. I am working on both the main site and the newsroom CMS
+              (content management system), fixing UI/UX bugs to aid both
+              journalists and news readers. At my internship, I am an active
+              participant of the AGILE methodology, attending live sprints,
+              daily standups, live grooming, and retrospective scrum meetings.
             </p>
             <h2 className="resume-subhead2-exp">
               Machine Learning Research Assistant @ Rensselaer Polytechnic
@@ -202,8 +212,8 @@ function Landing() {
             <h1 className="resume-title-skill">Skills</h1>
             <h2 className="resume-subhead-skill">Languages:</h2>
             <p className="resume-desc-skill">
-              Python, C/C++, Java, HTML/CSS, Javascript/Typescript, MATLAB,
-              MIPS, Verilog, R
+              Python, C/C++, Java, HTML/CSS, Javascript/Typescript, GraphQL,
+              MATLAB, MIPS, Verilog, R
             </p>
             <br />
             <h2 className="resume-subhead-skill">Frameworks:</h2>
@@ -213,7 +223,7 @@ function Landing() {
             <br />
             <h2 className="resume-subhead-skill">Developer Tools:</h2>
             <p className="resume-desc-skill">
-              Git, Github, Netlify, Figma, MacOS, Linux, VSCode, Eclipse
+              Git, Github, Netlify, Jira, Figma, MacOS, Linux, VSCode, Eclipse
             </p>
             <br />
             <h2 className="resume-subhead-skill">Libraries:</h2>
