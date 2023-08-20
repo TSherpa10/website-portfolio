@@ -8,7 +8,7 @@ body {
 /* Main-Block-1 shenanigans */
 
 .main-block-1 {
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,7 +96,7 @@ body {
     transition: 0.3s;
 }
 
-.main-projects {
+.main-abstract {
     position: absolute;
     margin-top: 300px;
     font-size: 1.3rem;
@@ -104,26 +104,26 @@ body {
 }
 
 
-#projects-btn {
+#abstract-btn {
     border: none;
     border-radius: 50%;
     background-color: #C1D0B5;
     transition: 0.5s;
 }
 
-#projects-btn:hover {
+#abstract-btn:hover {
     transform: scale(1.1) translateY(0.5rem);
     transition: 0.5s;
 }
 
-.projectsBtnDiv {
+.abstractBtnDiv {
     position: absolute;
     margin: 450px auto 0 auto;
 }
 /* Main-Block-2 shenanigans */
 
 .main-block-2 {
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -151,6 +151,7 @@ body {
     box-shadow: 4px 6px 0px black;
     width: 250px;
     padding: 10px 0 10px 0;
+    z-index: 2;
 }
 
 #btn2-1:hover, #btn2-2:hover, #btn2-3:hover, #btn2-4:hover, #btn2-5:hover {
@@ -198,83 +199,212 @@ body {
     margin-top: 200px;
 }
 
-.main-resume {
+.main-projects {
     position: absolute;
-    margin-top: 400px;
+    margin-top: 450px;
     font-size: 1.3rem;
     font-weight: 700;
 }
 
-.resumeBtnDiv {
+.projectBtnDiv {
     position: absolute;
-    margin-top: 550px;
+    margin-top: 600px;
 }
 
-#resume-btn {
+#project-btn {
     border: none;
     border-radius: 50%;
     background-color: #C1D0B5;
     transition: 0.5s;
 }
 
-#resume-btn:hover {
+#project-btn:hover {
     transform: scale(1.1) translateY(0.5rem);
     transition: 0.5s;
 }
 
-/* Main-block-3 shenanigans */
+@media (max-width: 2000px) {
+    .abstract {
+        margin-bottom: 200px;
+        max-width: 85%;
+    }
+    .abstract-text {
+        margin-top: 30px;
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+    .emp-text-1 {
+        margin-left: 5px;
+        font-size: 1.4rem;
+        font-weight: bold;
+        background: linear-gradient(90deg, #a963fc 0%, #6936a6 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .emp-text-2 {
+        margin-left: 5px;
+        font-size: 1.4rem;
+        font-weight: bold;
+        background: linear-gradient(90deg, #ad1313 0%, #580000 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .emp-text-3 {
+        margin-left: 5px;
+        font-size: 1.4rem;
+        font-weight: bold;
+        background: linear-gradient(135deg, #000000 0%, #787878 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+@media (max-width: 600px) {
+    .abstract {
+        margin-bottom: 200px;
+        max-width: 90%;
+    }
+
+    .abstract-text {
+        margin-top: 24px;
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+
+    .emp-text-1 {
+        margin-left: 5px;
+        font-size: 1.25rem;
+        font-weight: bold;
+        background: linear-gradient(90deg, #a963fc 0%, #6936a6 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .emp-text-2 {
+        margin-left: 5px;
+        font-size: 1.25rem;
+        font-weight: bold;
+        background: linear-gradient(90deg, #ad1313 0%, #580000 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .emp-text-3 {
+        margin-left: 5px;
+        font-size: 1.25rem;
+        font-weight: bold;
+        background: linear-gradient(135deg, #000000 0%, #787878 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+@media (max-width: 400px) {
+    .main-block-2 {
+        height: 120vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .abstract {
+        margin-bottom: 300px;
+        max-width: 90%;
+    }
+
+    .abstract-text {
+        margin-top: 20px;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .emp-text-1 {
+        margin-left: 5px;
+        font-size: 1.1rem;
+        font-weight: bold;
+        background: linear-gradient(90deg, #a963fc 0%, #6936a6 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .emp-text-2 {
+        margin-left: 5px;
+        font-size: 1.1rem;
+        font-weight: bold;
+        background: linear-gradient(90deg, #ad1313 0%, #580000 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .emp-text-3 {
+        margin-left: 5px;
+        font-size: 1.1rem;
+        font-weight: bold;
+        background: linear-gradient(135deg, #000000 0%, #787878 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+/* Simple main-block-3 class for projects section to counteract media query vh. */
 
 .main-block-3 {
+    height: 100vh;
     display: flex;
-    font-family: 'Inter', bold;
-    flex-flow: column nowrap;
+    justify-content: center;
     align-items: center;
-    margin: 0;
-
 }
 
-.resume-about, .resume-edu, .resume-exp, .resume-skill {
-    margin-top: 5vh;
-    width: 90%;
-    min-height: 15vh;
-    background-color: white;
-    padding: 0 10px 5px 10px;
-    border-radius: 18px;
+/* Bottom navbar for email contact */
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 350px;
+    margin-left: 98%;
+    text-align: right;
+    flex-shrink: 0;
+    z-index: 1;
 }
 
-.resume-edu {
-    margin-top: 3vh;
-    min-height: 24vh;
+.contact-section {
+    background-color: #C1D0B5;
+    border: none;
+}
+.contact-section:hover {
+    opacity: 0.7;
+    transition: 0.3s;
 }
 
-.resume-exp {
-    margin-top: 3vh;
-    min-height: 30vh;
-}
-
-.resume-skill {
-    margin-top: 3vh;
-    min-height: 20vh;
-}
-
-.resume-title-about, .resume-title-edu, .resume-title-exp, .resume-title-skill{
-    font-size: 1.3rem;
+.contact-text {
+    display: inline-block;
     font-weight: bold;
-    text-align: center;
+    font-size: 1.1rem;
+    color: #005402;
 }
 
-.resume-desc-about, .resume-desc-edu {
-    font-size: 0.85rem;
-    text-align: center;
+.email-icon {
+    display: inline-block;
+    color: #005402;
+    padding: 0 0 0 5px;
+    margin-bottom: -5px;
 }
 
-.resume-desc-emp-about {
-    font-size: 0.95rem;
-    font-weight: bold;
-    background: linear-gradient(90deg, #a963fc 0%, #6936a6 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.footer {
+    position: absolute;
+    margin-top: 600px;
+    padding-bottom: 50px;
+    font-size: 0.65rem;
+    z-index: 999;
+    color: #9e5472;
 }
+
+/* Disregarded third main block.
 
 .resume-subhead1-edu, .resume-subhead2-edu, .resume-subhead1-exp, .resume-subhead2-exp {
     font-size: 1.05rem;
@@ -348,3 +478,4 @@ body {
 #email-btn:hover {
     opacity: 0.6;
 }
+*/
