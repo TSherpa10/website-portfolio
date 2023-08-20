@@ -10,13 +10,11 @@
 
 **April 21st: Created quokka-talent and set up React.js application.**
 
-**May 8th: Finished 100vh first component of landing page.**
+**May 12th: Finished first iteration of website.**
 
-**May 11th: Finished 100vh second component of landing page.**
+**August 20th: Revamped website, new bottom sticky navbar + about section, resume QoL improved**
 
-**May 12th: Finished 180vh third component of landing page.**
-
-**DEPLOYED as of May 12th!**
+**DEPLOYED as of August 20th!**
 
 ## Instructions on how to clone:
 
