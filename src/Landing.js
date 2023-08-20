@@ -36,7 +36,7 @@ function Landing() {
     console.log("email prompt");
   }
   //Project Button Logic
-  function btnProject1() {}
+  function btnProject1() {} //future project placeholder
   function btnProject2() {
     window.location.href = "https://github.com/NeRF-or-Nothing";
   }
@@ -55,7 +55,6 @@ function Landing() {
         <article
           className="main-block-1"
           ref={block1Ref}
-          //style={{ overflowY: "scroll" }}
         >
           <h1 className="main-title">TASHI SHERPA</h1>
           <Typewriter
@@ -113,7 +112,6 @@ function Landing() {
         <article
           className="main-block-2"
           ref={block2Ref}
-          //style={{ overflowY: "scroll" }}
         >
           <div className="abstract">
             <h1 className="abstract-text">
@@ -141,7 +139,9 @@ function Landing() {
               As a full-stack enthusiast, I strive to create meaningful
               applications that educate others
             </h1>
-            <h1 className="abstract-text">I'm always available to chat :D</h1>
+            <h1 className="abstract-text">
+              I'm always available to chat [contact me on the bottom right :3]
+            </h1>
           </div>
 
           <h1 className="main-projects">projects</h1>
@@ -160,10 +160,9 @@ function Landing() {
         <article
           className="main-block-3"
           ref={block3Ref}
-          //style={{ overflowY: "scroll" }}
         >
           <hr className="dotted-line" />
-          <button id="btn2-1">Coming Soon?!?</button>
+          <button id="btn2-1">more coming soon!</button>
           <button id="btn2-2" onClick={btnProject2}>
             NERF-or-Nothing
           </button>
@@ -177,9 +176,7 @@ function Landing() {
             Preplify
           </button>
 
-          <h1 className="footer">
-            a self-made website, powered by React
-          </h1>
+          <h1 className="footer">a self-made website, powered by React</h1>
         </article>
       </div>
     </>

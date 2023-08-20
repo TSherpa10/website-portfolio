@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
+html {
+    background-color: #C1D0B5;
+}
+
 body {
     margin: 0;
-    background-color: #C1D0B5;
 }
 
 /* Main-Block-1 shenanigans */
@@ -18,7 +21,7 @@ body {
 .main-title {
     font-weight: bold;
     font-size: 2.5rem;
-    padding: 0 0 200px 0;
+    margin-bottom: 235px;
     position: absolute;
 }
 
@@ -223,6 +226,10 @@ body {
     transition: 0.5s;
 }
 
+.arrowLogo, .arrowLogo2 {
+    color: black;
+}
+
 @media (max-width: 2000px) {
     .abstract {
         margin-bottom: 200px;
@@ -370,15 +377,16 @@ body {
     text-align: right;
     flex-shrink: 0;
     z-index: 1;
+    padding-right: min(5%, 30px);
 }
 
 .contact-section {
     background-color: #C1D0B5;
     border: none;
+    transition: 0.5s;
 }
 .contact-section:hover {
-    opacity: 0.7;
-    transition: 0.3s;
+    opacity: 0.5;
 }
 
 .contact-text {
@@ -397,11 +405,12 @@ body {
 
 .footer {
     position: absolute;
-    margin-top: 600px;
-    padding-bottom: 50px;
+    margin: 600px 0 50px 0;
+    padding: 2px 5px 2px;
     font-size: 0.65rem;
     z-index: 999;
     color: #9e5472;
+    background-color: #ffef8c;
 }
 
 /* Disregarded third main block.
