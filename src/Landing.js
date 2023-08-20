@@ -14,7 +14,7 @@ function Landing() {
   //Block1 + Arrow Button Logic
   function btnLogicOne() {
     window.location.href =
-      "https://drive.google.com/file/d/1ZXzKajUR5uEOidErHxf34p-U5tOR3BXq/view?usp=sharing";
+      "https://drive.google.com/file/d/15cNdQ0-kxVMZNx9gWLDTooJMQIaOmXMK/view?usp=sharing";
     console.log("loading pop-up screen of resume...");
   }
   function btnLogicTwo() {
@@ -52,10 +52,7 @@ function Landing() {
   return (
     <>
       <div className="main">
-        <article
-          className="main-block-1"
-          ref={block1Ref}
-        >
+        <article className="main-block-1" ref={block1Ref}>
           <h1 className="main-title">TASHI SHERPA</h1>
           <Typewriter
             options={{
@@ -109,10 +106,7 @@ function Landing() {
           </div>
         </article>
 
-        <article
-          className="main-block-2"
-          ref={block2Ref}
-        >
+        <article className="main-block-2" ref={block2Ref}>
           <div className="abstract">
             <h1 className="abstract-text">
               I am a rising junior studying computer science at
@@ -157,10 +151,7 @@ function Landing() {
           </div>
         </article>
 
-        <article
-          className="main-block-3"
-          ref={block3Ref}
-        >
+        <article className="main-block-3" ref={block3Ref}>
           <hr className="dotted-line" />
           <button id="btn2-1">more coming soon!</button>
           <button id="btn2-2" onClick={btnProject2}>
