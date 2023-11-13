@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 html {
-    background-color: #c6d0b5;
+    background-color: #C1D0B5;
 }
 
 body {
@@ -198,14 +198,14 @@ body {
 
 .main-projects {
     position: absolute;
-    margin-top: 500px;
+    margin-top: 450px;
     font-size: 1.3rem;
     font-weight: 700;
 }
 
 .projectBtnDiv {
     position: absolute;
-    margin-top: 700px;
+    margin-top: 600px;
 }
 
 #project-btn {
@@ -243,7 +243,7 @@ body {
     }
     .abstract-text {
         margin-top: 30px;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         font-weight: 500;
     }
 
@@ -277,7 +277,7 @@ body {
 
 @media (max-width: 1000px) {
     .main-block-3 {
-        height: 200vh;
+        height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -288,17 +288,22 @@ body {
         margin: 100px 0 700px 0;
         text-shadow: 3px 3px 0 #B0926A;
     }
+    .abstract-text {
+        margin-top: 30px;
+        font-size: 1.05rem;
+        font-weight: 500;
+    }
 }
 
 @media (max-width: 600px) {
     .main-block-2 {
-        height: 110vh;
+        height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     .main-block-3 {
-        height: 120vh;
+        height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -316,7 +321,7 @@ body {
 
     .abstract-text {
         margin-top: 20px;
-        font-size: 1.1rem;
+        font-size: 1rem;
         font-weight: 500;
     }
 
@@ -356,7 +361,7 @@ body {
         align-items: center;
     }
     .main-block-3 {
-        height: 120vh;
+        height: 110vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -375,7 +380,7 @@ body {
 
     .abstract-text {
         margin-top: 16px;
-        font-size: 1rem;
+        font-size: 0.95rem;
         font-weight: 500;
     }
 
