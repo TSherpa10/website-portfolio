@@ -36,7 +36,9 @@ function Landing() {
     console.log("email prompt");
   }
   //Project Button Logic
-  function btnProject1() {} //future project placeholder
+  function btnProject1() {
+    window.location.href = "https://github.com/StrataLink/ScribeAI";
+  }
   function btnProject2() {
     window.location.href = "https://github.com/NeRF-or-Nothing";
   }
@@ -108,36 +110,33 @@ function Landing() {
 
         <article className="main-block-2" ref={block2Ref}>
           <div className="abstract">
+            <h1 className="abstract-text">Hello! :D</h1>
             <h1 className="abstract-text">
-              I am a rising junior studying computer science at
-              <strong className="emp-text-2">RPI</strong>
+              I am<strong className="emp-text-1">Tashi Sherpa,</strong> a junior studying computer science at
+              <strong className="emp-text-2">Rensselaer Polytechnic Institute</strong>
             </h1>
             <h1 className="abstract-text">
-              This summer, I was a software engineer intern at the
+              Last summer, I was a software engineer intern at the
               <strong className="emp-text-3">NYTimes</strong> - Live News team
-              <br />I worked to improve live news engagement for readers and
-              publishing workflows for journalists
+              <br />working on live news engagement for readers and
+              publishing workflows for journalists.
             </h1>
             <h1 className="abstract-text">
-              Previously, I was a supervised ML research intern at my university
-              working on large polycrystalline datasets
+              Previously, I was a supervised machine learning research intern at my university
+              working on large polycrystalline datasets.
             </h1>
             <h1 className="abstract-text">
-              Contributor to multiple open-source projects, incoming Codepath
-              web development fellow, honors student, aspiring software engineer
-              <br />
-              Indoor boulderer, pixel art enthusiast, fan of the NBA (Lebron is
-              my GOAT!)
+              Contributor to multiple open-source projects, Codepath
+              WEB102 member, aspiring software engineer,
+              indoor boulderer, pixel art enthusiast, NBA aficionado (go Knicks!), lifelong learner.
             </h1>
             <h1 className="abstract-text">
-              As a full-stack enthusiast, I strive to create meaningful
-              applications that educate others
+              currently learning: how-to-create-a-startup, Three.js, cooking
             </h1>
             <h1 className="abstract-text">
-              I'm always available to chat [contact me on the bottom right :3]
+              I'm always available to chat! [contact me on the bottom right :3]
             </h1>
           </div>
-
           <h1 className="main-projects">projects</h1>
           <div className="projectBtnDiv" onClick={btnLogicFive}>
             <button id="project-btn">
@@ -152,8 +151,10 @@ function Landing() {
         </article>
 
         <article className="main-block-3" ref={block3Ref}>
-          <hr className="dotted-line" />
-          <button id="btn2-1">more coming soon!</button>
+          <h1 className="project-header">project list</h1>
+          <button id="btn2-1" onClick={btnProject1}>
+            ScribeAI
+          </button>
           <button id="btn2-2" onClick={btnProject2}>
             NERF-or-Nothing
           </button>
@@ -166,8 +167,11 @@ function Landing() {
           <button id="btn2-5" onClick={btnProject5}>
             Preplify
           </button>
-
-          <h1 className="footer">a self-made website, powered by React</h1>
+          <h2 className="prefooter">
+            more projects on my{" "}
+            <a href="https://github.com/TSherpa10">github</a>
+          </h2>
+          <h3 className="footer">a self-made website, powered by React</h3>
         </article>
       </div>
     </>

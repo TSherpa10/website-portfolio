@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 html {
-    background-color: #C1D0B5;
+    background-color: #c6d0b5;
 }
 
 body {
@@ -123,14 +123,8 @@ body {
     position: absolute;
     margin: 450px auto 0 auto;
 }
-/* Main-Block-2 shenanigans */
 
-.main-block-2 {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+/* Main-Block-2 shenanigans */
 
 .dotted-line {
     width: 10%;
@@ -204,14 +198,14 @@ body {
 
 .main-projects {
     position: absolute;
-    margin-top: 450px;
+    margin-top: 500px;
     font-size: 1.3rem;
     font-weight: 700;
 }
 
 .projectBtnDiv {
     position: absolute;
-    margin-top: 600px;
+    margin-top: 700px;
 }
 
 #project-btn {
@@ -231,8 +225,20 @@ body {
 }
 
 @media (max-width: 2000px) {
+    .main-block-2 {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .project-header {
+        position: absolute;
+        font-size: 2.5rem;
+        margin: 100px 0 700px 0;
+        text-shadow: 3px 3px 0 #B0926A;
+    }
     .abstract {
-        margin-bottom: 200px;
+        margin-bottom: 100px;
         max-width: 85%;
     }
     .abstract-text {
@@ -269,14 +275,47 @@ body {
     }
 }
 
+@media (max-width: 1000px) {
+    .main-block-3 {
+        height: 200vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .project-header {
+        position: absolute;
+        font-size: 2rem;
+        margin: 100px 0 700px 0;
+        text-shadow: 3px 3px 0 #B0926A;
+    }
+}
+
 @media (max-width: 600px) {
+    .main-block-2 {
+        height: 110vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-block-3 {
+        height: 120vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .project-header {
+        position: absolute;
+        font-size: 1.8rem;
+        margin-bottom: 650px;
+        text-shadow: 3px 3px 0 #B0926A;
+    }
     .abstract {
         margin-bottom: 200px;
         max-width: 90%;
     }
 
     .abstract-text {
-        margin-top: 24px;
+        margin-top: 20px;
         font-size: 1.1rem;
         font-weight: 500;
     }
@@ -316,20 +355,33 @@ body {
         justify-content: center;
         align-items: center;
     }
+    .main-block-3 {
+        height: 120vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .project-header {
+        position: absolute;
+        font-size: 1.6rem;
+        margin-bottom: 450px;
+        text-shadow: 3px 3px 0 #B0926A;
+        display: none;
+    }
     .abstract {
         margin-bottom: 300px;
         max-width: 90%;
     }
 
     .abstract-text {
-        margin-top: 20px;
+        margin-top: 16px;
         font-size: 1rem;
         font-weight: 500;
     }
 
     .emp-text-1 {
         margin-left: 5px;
-        font-size: 1.1rem;
+        font-size: 1.05rem;
         font-weight: bold;
         background: linear-gradient(90deg, #a963fc 0%, #6936a6 100%);
         -webkit-background-clip: text;
@@ -338,7 +390,7 @@ body {
 
     .emp-text-2 {
         margin-left: 5px;
-        font-size: 1.1rem;
+        font-size: 1.05rem;
         font-weight: bold;
         background: linear-gradient(90deg, #ad1313 0%, #580000 100%);
         -webkit-background-clip: text;
@@ -347,7 +399,7 @@ body {
 
     .emp-text-3 {
         margin-left: 5px;
-        font-size: 1.1rem;
+        font-size: 1.05rem;
         font-weight: bold;
         background: linear-gradient(135deg, #000000 0%, #787878 100%);
         -webkit-background-clip: text;
@@ -401,6 +453,16 @@ body {
     color: #005402;
     padding: 0 0 0 5px;
     margin-bottom: -5px;
+}
+
+.prefooter {
+    position: absolute;
+    font-size: 1.2rem;
+    margin-top: 400px;
+}
+
+.prefooter a {
+    color: brown;
 }
 
 .footer {
