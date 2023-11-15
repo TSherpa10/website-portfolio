@@ -112,26 +112,34 @@ function Landing() {
           <div className="abstract">
             <h1 className="abstract-text">Hello! :D</h1>
             <h1 className="abstract-text">
-              I am<strong className="emp-text-1">Tashi Sherpa,</strong> a junior studying computer science at
-              <strong className="emp-text-2">Rensselaer Polytechnic Institute</strong>
+              I am<strong className="emp-text-1">Tashi Sherpa,</strong> a junior
+              studying computer science at
+              <strong className="emp-text-2">
+                Rensselaer Polytechnic Institute
+              </strong>
             </h1>
             <h1 className="abstract-text">
               Last summer, I was a software engineer intern at the
               <strong className="emp-text-3">NYTimes</strong> - Live News team
-              <br />working on live news engagement for readers and
-              publishing workflows for journalists.
+              <br />
+              working on live news engagement for readers and publishing
+              workflows for journalists.
             </h1>
             <h1 className="abstract-text">
-              Previously, I was a supervised machine learning research intern at my university
-              working on large polycrystalline datasets.
+              Previously, I was a supervised machine learning research intern at
+              my university working on large polycrystalline datasets.
             </h1>
             <h1 className="abstract-text">
-              Contributor to multiple open-source projects, Codepath
-              WEB102 member, aspiring software engineer,
-              indoor boulderer, pixel art enthusiast, NBA aficionado (go Knicks!), lifelong learner.
+              Contributor to multiple open-source projects, Codepath WEB102
+              member, aspiring software engineer, indoor boulderer, pixel art
+              enthusiast, NBA aficionado (go Knicks!), lifelong learner.
             </h1>
             <h1 className="abstract-text">
-              currently learning: how-to-create-a-startup, Three.js, cooking
+              currently working on:{" "}
+              <a href="https://github.com/StrataLink/ScribeAI">
+                how to launch my startup
+              </a>
+              , Three.js, cooking, reading books on my Kindle :D
             </h1>
             <h1 className="abstract-text">
               I'm always available to chat! [contact me on the bottom right :3]
