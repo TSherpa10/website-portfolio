@@ -136,7 +136,7 @@ function Landing() {
             </h1>
             <h1 className="abstract-text">
               currently working on:{" "}
-              <a href="https://github.com/StrataLink/ScribeAI">
+              <a href="https://github.com/StrataLink">
                 how to launch my startup
               </a>
               , Three.js, cooking, reading books on my Kindle :D
