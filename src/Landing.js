@@ -14,7 +14,7 @@ function Landing() {
   //Block1 + Arrow Button Logic
   function btnLogicOne() {
     window.location.href =
-      "https://drive.google.com/file/d/15cNdQ0-kxVMZNx9gWLDTooJMQIaOmXMK/view?usp=sharing";
+      "https://drive.google.com/file/d/1p3kJa5KWpxokYo6eoSJN1d0Ctye4Rvo6/view?usp=sharing";
     console.log("loading pop-up screen of resume...");
   }
   function btnLogicTwo() {
