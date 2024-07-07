@@ -112,11 +112,17 @@ function Landing() {
           <div className="abstract">
             <h1 className="abstract-text">Hello! :D</h1>
             <h1 className="abstract-text">
-              I am<strong className="emp-text-1">Tashi Sherpa,</strong> a junior
-              studying computer science at
+              I am<strong className="emp-text-1">Tashi Sherpa,</strong> a rising
+              senior studying computer science at
               <strong className="emp-text-2">
                 Rensselaer Polytechnic Institute
               </strong>
+            </h1>
+            <h1 className="abstract-text">
+              This summer, I am a software developer coop at
+              <strong className="emp-text-1">Leidos</strong> working on ocean acoustic simulation software
+              <br />
+              for the US government.
             </h1>
             <h1 className="abstract-text">
               Last summer, I was a software engineer intern at the

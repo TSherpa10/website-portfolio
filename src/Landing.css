@@ -25,7 +25,8 @@ body {
     position: absolute;
 }
 
-.Typewriter, .main-text {
+.Typewriter,
+.main-text {
     position: relative;
     margin-bottom: 120px;
     font-size: 0.9rem;
@@ -37,7 +38,9 @@ body {
     display: inline;
 }
 
-#btn-1, #btn-2, #btn-3 {
+#btn-1,
+#btn-2,
+#btn-3 {
     background-color: white;
     color: black;
     font-family: 'Inter';
@@ -135,7 +138,11 @@ body {
 
 }
 
-#btn2-1, #btn2-2, #btn2-3, #btn2-4, #btn2-5 {
+#btn2-1,
+#btn2-2,
+#btn2-3,
+#btn2-4,
+#btn2-5 {
     position: absolute;
     background-color: white;
     color: black;
@@ -151,7 +158,11 @@ body {
     z-index: 2;
 }
 
-#btn2-1:hover, #btn2-2:hover, #btn2-3:hover, #btn2-4:hover, #btn2-5:hover {
+#btn2-1:hover,
+#btn2-2:hover,
+#btn2-3:hover,
+#btn2-4:hover,
+#btn2-5:hover {
     background-color: black;
     color: white;
 }
@@ -220,7 +231,8 @@ body {
     transition: 0.5s;
 }
 
-.arrowLogo, .arrowLogo2 {
+.arrowLogo,
+.arrowLogo2 {
     color: black;
 }
 
@@ -231,16 +243,19 @@ body {
         justify-content: center;
         align-items: center;
     }
+
     .project-header {
         position: absolute;
         font-size: 2.5rem;
         margin: 100px 0 700px 0;
         text-shadow: 3px 3px 0 #B0926A;
     }
+
     .abstract {
         margin-bottom: 100px;
         max-width: 85%;
     }
+
     .abstract-text {
         margin-top: 30px;
         font-size: 1.1rem;
@@ -282,12 +297,14 @@ body {
         justify-content: center;
         align-items: center;
     }
+
     .project-header {
         position: absolute;
         font-size: 2rem;
         margin: 100px 0 700px 0;
         text-shadow: 3px 3px 0 #B0926A;
     }
+
     .abstract-text {
         margin-top: 30px;
         font-size: 1.05rem;
@@ -302,18 +319,21 @@ body {
         justify-content: center;
         align-items: center;
     }
+
     .main-block-3 {
         height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
     .project-header {
         position: absolute;
         font-size: 1.8rem;
         margin-bottom: 650px;
         text-shadow: 3px 3px 0 #B0926A;
     }
+
     .abstract {
         margin-bottom: 200px;
         max-width: 90%;
@@ -360,12 +380,14 @@ body {
         justify-content: center;
         align-items: center;
     }
+
     .main-block-3 {
         height: 110vh;
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
     .project-header {
         position: absolute;
         font-size: 1.6rem;
@@ -373,6 +395,7 @@ body {
         text-shadow: 3px 3px 0 #B0926A;
         display: none;
     }
+
     .abstract {
         margin-bottom: 300px;
         max-width: 90%;
@@ -442,6 +465,7 @@ body {
     border: none;
     transition: 0.5s;
 }
+
 .contact-section:hover {
     opacity: 0.5;
     transform: scale(1.05);
