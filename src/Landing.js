@@ -37,19 +37,19 @@ function Landing() {
   }
   //Project Button Logic
   function btnProject1() {
-    window.location.href = "https://github.com/StrataLink/ScribeAI";
+    window.location.href = "https://notoshi.itch.io/brave-summit";
   }
   function btnProject2() {
-    window.location.href = "https://github.com/NeRF-or-Nothing";
+    window.location.href = "https://github.com/StrataLink/ScribeAI";
   }
   function btnProject3() {
-    window.location.href = "https://github.com/ctplatform/classtime-web";
+    window.location.href = "https://github.com/NeRF-or-Nothing";
   }
   function btnProject4() {
     window.location.href = "https://github.com/TSherpa10/UChat";
   }
   function btnProject5() {
-    window.location.href = "https://github.com/jchen2003/Preplify3.0";
+    window.location.href = "https://github.com/ctplatform/classtime-web";
   }
   return (
     <>
@@ -120,9 +120,11 @@ function Landing() {
             </h1>
             <h1 className="abstract-text">
               This summer, I am a software developer coop at
-              <strong className="emp-text-1">Leidos</strong> working on ocean acoustic simulation software
+              <strong className="emp-text-1">Leidos</strong> working on ocean
+              acoustic simulation software
               <br />
-              for the US government.
+              with a secret clearance. I use C++, Python, Golang, and Bash
+              scripting!
             </h1>
             <h1 className="abstract-text">
               Last summer, I was a software engineer intern at the
@@ -145,7 +147,7 @@ function Landing() {
               <a href="https://github.com/StrataLink">
                 how to launch my startup
               </a>
-              , Three.js, cooking, reading books on my Kindle :D
+              , game dev (check Brave Summit!), and mobile development with Swift!
             </h1>
             <h1 className="abstract-text">
               I'm always available to chat! [contact me on the bottom right :3]
@@ -167,19 +169,19 @@ function Landing() {
         <article className="main-block-3" ref={block3Ref}>
           <h1 className="project-header">project list</h1>
           <button id="btn2-1" onClick={btnProject1}>
-            ScribeAI
+            Brave Summit
           </button>
           <button id="btn2-2" onClick={btnProject2}>
-            NERF-or-Nothing
+            ScribeAI
           </button>
           <button id="btn2-3" onClick={btnProject3}>
-            Classtime!
+            NERF-or-Nothing
           </button>
           <button id="btn2-4" onClick={btnProject4}>
             UChat
           </button>
           <button id="btn2-5" onClick={btnProject5}>
-            Preplify
+            Classtime!
           </button>
           <h2 className="prefooter">
             more projects on my{" "}
